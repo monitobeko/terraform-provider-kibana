@@ -12,6 +12,7 @@ cloud.google.com/go/storage
 github.com/Azure/go-ansiterm
 github.com/Azure/go-ansiterm/winterm
 # github.com/Microsoft/go-winio v0.4.15
+## explicit
 github.com/Microsoft/go-winio
 github.com/Microsoft/go-winio/pkg/guid
 # github.com/Nvveen/Gotty v0.0.0-20120604004816-cd527374f1e5
@@ -67,8 +68,10 @@ github.com/bgentry/go-netrc/netrc
 # github.com/bgentry/speakeasy v0.1.0
 github.com/bgentry/speakeasy
 # github.com/cenkalti/backoff v2.2.1+incompatible
+## explicit
 github.com/cenkalti/backoff
 # github.com/containerd/continuity v0.0.0-20200928162600-f2cc35102c2a
+## explicit
 github.com/containerd/continuity/pathdriver
 # github.com/davecgh/go-spew v1.1.1
 github.com/davecgh/go-spew/spew
@@ -84,6 +87,7 @@ github.com/emirpasic/gods/trees
 github.com/emirpasic/gods/trees/binaryheap
 github.com/emirpasic/gods/utils
 # github.com/ewilde/go-kibana v0.0.0-20210325142727-7a2d527c3f8c
+## explicit
 github.com/ewilde/go-kibana
 # github.com/fatih/color v1.7.0
 github.com/fatih/color
@@ -188,6 +192,7 @@ github.com/hashicorp/go-uuid
 # github.com/hashicorp/go-version v1.2.1
 github.com/hashicorp/go-version
 # github.com/hashicorp/hcl v0.0.0-20171017181929-23c074d0eceb
+## explicit
 github.com/hashicorp/hcl
 github.com/hashicorp/hcl/hcl/ast
 github.com/hashicorp/hcl/hcl/parser
@@ -220,6 +225,7 @@ github.com/hashicorp/terraform-exec/tfinstall
 # github.com/hashicorp/terraform-json v0.5.0
 github.com/hashicorp/terraform-json
 # github.com/hashicorp/terraform-plugin-sdk v1.16.0
+## explicit
 github.com/hashicorp/terraform-plugin-sdk/acctest
 github.com/hashicorp/terraform-plugin-sdk/helper/hashcode
 github.com/hashicorp/terraform-plugin-sdk/helper/logging
@@ -288,6 +294,7 @@ github.com/mattn/go-colorable
 # github.com/mattn/go-isatty v0.0.5
 github.com/mattn/go-isatty
 # github.com/mcuadros/go-version v0.0.0-20190830083331-035f6764e8d2
+## explicit
 github.com/mcuadros/go-version
 # github.com/mitchellh/cli v1.1.1
 github.com/mitchellh/cli
@@ -313,8 +320,10 @@ github.com/opencontainers/go-digest
 github.com/opencontainers/image-spec/specs-go
 github.com/opencontainers/image-spec/specs-go/v1
 # github.com/opencontainers/runc v1.0.0-rc4.0.20171130145147-91e979501348
+## explicit
 github.com/opencontainers/runc/libcontainer/user
 # github.com/ory/dockertest v3.3.5+incompatible
+## explicit
 github.com/ory/dockertest
 github.com/ory/dockertest/docker
 github.com/ory/dockertest/docker/opts
@@ -341,8 +350,10 @@ github.com/ory/dockertest/docker/types/registry
 github.com/ory/dockertest/docker/types/strslice
 github.com/ory/dockertest/docker/types/versions
 # github.com/parnurzeal/gorequest v0.2.16
+## explicit
 github.com/parnurzeal/gorequest
 # github.com/pkg/errors v0.9.1
+## explicit
 github.com/pkg/errors
 # github.com/posener/complete v1.2.1
 github.com/posener/complete
@@ -354,6 +365,7 @@ github.com/satori/go.uuid
 # github.com/sergi/go-diff v1.1.0
 github.com/sergi/go-diff/diffmatchpatch
 # github.com/sirupsen/logrus v1.7.0
+## explicit
 github.com/sirupsen/logrus
 # github.com/spf13/afero v1.2.2
 github.com/spf13/afero
@@ -399,6 +411,7 @@ go.opencensus.io/trace/internal
 go.opencensus.io/trace/propagation
 go.opencensus.io/trace/tracestate
 # golang.org/x/crypto v0.0.0-20201117144127-c1f2f97bffc9
+## explicit
 golang.org/x/crypto/bcrypt
 golang.org/x/crypto/blowfish
 golang.org/x/crypto/cast5
@@ -425,6 +438,7 @@ golang.org/x/lint/golint
 golang.org/x/mod/module
 golang.org/x/mod/semver
 # golang.org/x/net v0.0.0-20210119194325-5f4716e94777
+## explicit
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
 golang.org/x/net/http/httpguts
@@ -585,4 +599,6 @@ google.golang.org/protobuf/types/pluginpb
 # gopkg.in/warnings.v0 v0.1.2
 gopkg.in/warnings.v0
 # moul.io/http2curl v1.0.0
+## explicit
 moul.io/http2curl
+# golang.org/x/sys => golang.org/x/sys v0.0.0-20190830141801-acfa387b8d69
