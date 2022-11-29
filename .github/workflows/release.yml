@@ -45,7 +45,7 @@ jobs:
         uses: goreleaser/goreleaser-action@v2
         with:
           version: latest
-          args: release --rm-dist -f ${{ github.workspace }}/.github/workflows/goreleaser-custom.yml
+          args: release --rm-dist
         env:
           GPG_FINGERPRINT: ${{ steps.import_gpg.outputs.fingerprint }}
           # GitHub sets this automatically
