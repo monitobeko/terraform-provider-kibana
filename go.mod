@@ -1,6 +1,6 @@
 module github.com/monitobeko/terraform-provider-kibana
 
-go 1.13
+go 1.14
 
 require (
 	github.com/Microsoft/go-winio v0.4.15 // indirect
