@@ -115,8 +115,6 @@ func readDashboardReferencesFromInterface(val interface{}) []*kibana.DashboardRe
 			dashboardRef.Type = kibana.DashboardReferencesTypeTag
 		case kibana.DashboardReferencesTypeLens.String():
 			dashboardRef.Type = kibana.DashboardReferencesTypeLens
-		case kibana.DashboardReferencesTypeVisualization.String():
-			dashboardRef.Type = kibana.DashboardReferencesTypeVisualization
 		case kibana.DashboardReferencesTypeDashboard.String():
 			dashboadRef.Type = kibana.DashboardReferencesTypeDashboard
 		}
