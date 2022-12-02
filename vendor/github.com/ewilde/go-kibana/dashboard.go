@@ -16,7 +16,6 @@ const (
 	DashboardReferencesTypeTag           dashboardReferencesType = "tag"
 	DashboardReferencesTypeLens          dashboardReferencesType = "lens"
 	DashboardReferencesTypeDashboard     dashboardReferencesType = "dashboard"
-	DashboardReferencesTypeVisualization dashboardReferencesType = "visualization"
 )
 
 type dashboardReferencesType string
